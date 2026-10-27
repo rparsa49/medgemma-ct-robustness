@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+.env
+*.pyc
+data/images/
+data/manifest.csv
+results/
+*.safetensors

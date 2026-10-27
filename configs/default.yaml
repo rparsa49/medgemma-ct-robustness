@@ -1,0 +1,8 @@
+model_id: google/medgemma-4b-it
+manifest: data/manifest.csv
+output_dir: results
+seed: 42
+max_new_tokens: 32
+prompt: "You are reviewing a CT image. Choose the most appropriate label from: {labels}. Answer with exactly one label and no explanation."
+severity_levels: [1, 2, 3, 4, 5]
+degradations: [gaussian_noise, gaussian_blur, motion_blur, low_contrast, resolution_loss, jpeg, bias_field]

@@ -1,0 +1,3 @@
+sample_id,image_path,label
+ct_001,data/images/ct_001.png,normal
+ct_002,data/images/ct_002.png,abnormal
